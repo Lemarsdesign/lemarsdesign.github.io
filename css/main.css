@@ -1,0 +1,257 @@
+*{
+    scroll-behavior: smooth;
+}
+body {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 100vw;
+    margin: 0px;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 10vh;
+    padding: 20px;
+    background-color: #6EC6CA;
+}
+
+.main-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #6EC6CA;
+}
+
+#home {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.text-wrapper{
+    animate__bounceIn
+}
+.icon {
+    display: flex;
+    width: 50px;
+    
+}
+.icon:hover {
+    width: 70px;
+}
+
+.icons-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#welcome-image {
+    width: 30%;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+.about-wrapper {
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #CCABD8;
+}
+
+.first-block, .second-block{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.decoration-text,
+span {
+    text-decoration: none;
+    color:#055B5C;
+    font-weight: 900;
+    text-shadow: 3px 3px 2px #6EC6CA;
+    transition: all .3s ease-in-out;
+}
+.email-wrapper{
+    display: flex;
+    align-self: center;
+}
+.mail{
+    text-decoration: none;
+    color: #8474A1;
+    font-weight: 900;
+    transition: all .3s ease-in-out;
+}
+
+.mail:hover,
+span:hover, 
+.decoration-text:hover {
+    color: #393e41;
+    text-shadow: none;
+}
+.link{
+    text-decoration: none;
+    color: #8474A1;
+    font-weight: 900;
+    text-shadow: 3px 3px 2px #CCABD8;
+    transition: all .3s ease-in-out;
+}
+
+.link:hover, {
+    color: #393e41;
+    text-shadow: none;
+}
+
+.article-wrapper {
+    width: 45%;
+    text-justify:inherit; 
+    padding-top: 70px;
+}
+.article-wrapper2 {
+    width: 45%;
+    text-justify:inherit;    
+    padding-top: 70px; 
+    
+}
+
+.prototyping-img {
+    max-width: 40%;
+}
+
+.first-block {
+    padding-bottom: 30px;
+}
+
+.webdevices-img {
+    max-width: 40%;   
+}
+
+.project-wrapper {
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+    background-color: #6EC6CA;
+}
+
+.project-description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 30px;
+
+}
+#progress-bar {
+
+
+}
+.projects-pic {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#project2 {
+    width: 50%;
+    height: 50%;
+}
+
+.decoration-text {
+    color: #055B5C;
+}
+
+#uxpreview{
+    display: block;
+    width: 100%;
+}
+
+#uipreview{
+    display: block;
+    width: 100%;
+}
+
+#contact {
+    display: flex;
+    flex-direction: column;
+    background-color:#055B5C;
+}
+
+.contact-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.info-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.location-wrapper{
+    display: flex;
+    flex-direction: row; 
+    justify-content: flex-start;
+    
+}
+#location-icon {
+    max-height: 30px;
+    width: 30px;
+    padding-right: 10px;
+    padding-top: 10px;
+
+}
+
+.socialnetwork-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#linkedin-icon{
+    padding-right: 20px;
+}
+
+#medium-icon{
+    padding-top: 4px;
+}
+.preview {
+    display: flex;
+    flex-direction: row;
+    justify-content: center, space-evenly;
+    width: 3%;  
+}
+
+.bye-img {
+    width: 30%;
+}
+.footer-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color:  #6EC6CA;
+}
+
+@media (max-width: 900px) {
+    #home,
+    .first-block,
+    .second-block,
+    .contact-wrapper
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #home{
+        justify-content: space-between;
+    }
+    .icons-wrapper{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+}
