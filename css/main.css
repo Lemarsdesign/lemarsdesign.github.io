@@ -151,7 +151,10 @@ span:hover,
     flex-direction: row;
     justify-content: center;
 }
-
+.reference {
+    text-align:center;
+    padding-block-end: 30px;
+}
 #project2 {
     width: 50%;
     height: 50%;
@@ -236,7 +239,7 @@ span:hover,
     background-color:  #6EC6CA;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 800px) {
     #home,
     .first-block,
     .second-block,
