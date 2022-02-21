@@ -7,12 +7,39 @@ body {
     margin: 0px;
 }
 
+.language {
+    display: flex;
+    flex-direction: row;   
+    padding-top: 20px;
+    padding-left: 82%;
+    color: #8474A1;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px #1f2122;
+    background-color: #6EC6CA;
+    text-decoration: none;
+}
+.languagein {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;    
+    color: #8474A1;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px #055B5C;
+    outline-style: inset;
+    outline-offset: 3px;
+    background-color: #6EC6CA;
+    text-decoration: none;
+    border-radius: 4px;
+
+}
+
 nav {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     height: 10vh;
     padding: 20px;
+    padding-top: 60px;
     background-color: #6EC6CA;
 }
 
@@ -47,9 +74,12 @@ nav {
 }
 
 #welcome-image {
-    width: 30%;
+    width: auto;
+    height: 30%;
     margin-top: 10px;
     margin-bottom: 40px;
+    max-width:45%;
+    
 }
 
 .about-wrapper {
@@ -86,7 +116,7 @@ span {
 }
 
 .mail:hover,
-span:hover, 
+span:hover, .language:hover,
 .decoration-text:hover {
     color: #393e41;
     text-shadow: none;
@@ -107,17 +137,19 @@ span:hover,
 .article-wrapper {
     width: 45%;
     text-justify:inherit; 
-    padding-top: 70px;
+    padding-top: 80px;
 }
 .article-wrapper2 {
     width: 45%;
     text-justify:inherit;    
-    padding-top: 70px; 
+    padding-top: 80px; 
     
 }
 
 .prototyping-img {
     max-width: 40%;
+    width: auto;
+    height: 40%;
 }
 
 .first-block {
@@ -125,7 +157,9 @@ span:hover,
 }
 
 .webdevices-img {
-    max-width: 40%;   
+    max-width:40%;
+    width: auto;   
+    height: 40%;
 }
 
 .project-wrapper {
@@ -140,6 +174,14 @@ span:hover,
     flex-direction: column;
     align-items: center;
     padding-top: 30px;
+
+}
+.project-description2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    text-align: center;
 
 }
 .arrow {
@@ -237,7 +279,9 @@ span:hover,
 }
 
 .bye-img {
-    width: 30%;
+    width: auto;
+    height: 30%;
+    max-width: 30%;
 }
 .footer-wrapper {
     display: flex;
