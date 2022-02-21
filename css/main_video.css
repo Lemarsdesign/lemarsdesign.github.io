@@ -11,30 +11,32 @@ body {
     display: flex;
     flex-direction: column;
     background-color: #6EC6CA;
+    width: 100%;
 }
 .title {
     vertical-align: middle;
     display: flex;
-    flex-direction: row;
-    font-size: 45px;
-    padding: 30px;
-    margin: auto;
+    flex-direction: row;  
+    font-weight: bolder;
+    font-size: xx-large;
+    letter-spacing: 1.2px;
+    margin: auto 20%;
 }
 
 .project-wrapper {
     display: flex;
     flex-direction: row;
-    padding-left: 15vw;
+    justify-content: center;    
     background-color: #6EC6CA;
+    width: 90%;
+    margin: auto;
 }
 
 .imgv {
-    
-    margin-right: 20%;
     vertical-align: middle;
     display: flex;
     flex-direction: row;
-    padding: 20px;
+    width: auto;
     height: auto;
 }
 
@@ -57,10 +59,13 @@ body {
     display: flex;
     flex-direction: row;
     width: auto;
-    height: 25vh;
+    padding: 10px;
+    height: 20%;
+    max-width: 20%;
 }
 .videoart {
     align-items: center;
+    width: auto;
 }
 
 .about-wrapper {
@@ -157,8 +162,9 @@ span:hover, .language:hover,
 
 
 .bye-img {
-    height: 30vh;
+    height: 30%;
     width: auto;
+    max-width: 30%;
 }
 .footer-wrapper {
     display: flex;
