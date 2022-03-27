@@ -42,6 +42,13 @@ nav {
     padding-top: 60px;
     background-color: #6EC6CA;
 }
+iframe {
+	width: 80%;
+	height: 700px;
+	vertical-align: top;
+	border: none;
+    background-color: aliceblue ;
+}
 
 .main-wrapper {
     display: flex;
@@ -153,7 +160,7 @@ span:hover, .language:hover,
 }
 
 .first-block {
-    padding-bottom: 30px;
+    padding-bottom: 20px;
 }
 
 .webdevices-img {
@@ -174,6 +181,7 @@ span:hover, .language:hover,
     flex-direction: column;
     align-items: center;
     padding-top: 30px;
+    text-align: center;
 
 }
 .project-description2 {
@@ -202,13 +210,21 @@ span:hover, .language:hover,
     flex-direction: row;
     justify-content: center;
 }
+
+.videoart {
+    align-items: center;
+    width: auto;
+    padding-top: 1%;
+    padding-left: 10%;
+    margin: 0 auto;
+}
 .reference {
     text-align:center;
     padding-block-end: 30px;
 }
 #project2 {
     width: 50%;
-    height: 50%;
+    height: 40%;
 }
 
 .decoration-text {
@@ -217,12 +233,13 @@ span:hover, .language:hover,
 
 #uxpreview{
     display: block;
-    width: 100%;
+    width: 90%;
+    height: 50%;
 }
 
 #uipreview{
     display: block;
-    width: 100%;
+    width: 95%;
 }
 
 #contact {

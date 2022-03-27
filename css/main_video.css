@@ -16,28 +16,31 @@ body {
 .title {
     vertical-align: middle;
     display: flex;
-    flex-direction: row;  
     font-weight: bolder;
     font-size: xx-large;
+    flex-direction: row;
     letter-spacing: 1.2px;
     margin: auto 20%;
+    
 }
 
 .project-wrapper {
     display: flex;
     flex-direction: row;
-    justify-content: center;    
+    justify-content: center;
     background-color: #6EC6CA;
     width: 90%;
     margin: auto;
 }
 
 .imgv {
+    
+    
     vertical-align: middle;
     display: flex;
     flex-direction: row;
-    width: auto;
     height: auto;
+    width: auto;
 }
 
 
@@ -73,14 +76,14 @@ body {
     flex-direction: column;
     padding-top: 20px;
     padding-bottom: 20px;
-    background-color: #CCABD8;
+    background-color: rgb(204, 171, 216);
 }
 .decoration-text,
 span {
     text-decoration: none;
-    color:#055B5C;
+    color:rgb(5, 91, 92);
     font-weight: 900;
-    text-shadow: 3px 3px 2px #6EC6CA;
+    text-shadow: 3px 3px 2px rgb(110, 198, 202);
     transition: all .3s ease-in-out;
 }
 .email-wrapper{
@@ -162,8 +165,8 @@ span:hover, .language:hover,
 
 
 .bye-img {
-    height: 30%;
     width: auto;
+    height: 30%;
     max-width: 30%;
 }
 .footer-wrapper {
@@ -175,7 +178,7 @@ span:hover, .language:hover,
     background-color:  #6EC6CA;
 }
 
-@media (max-width: 800px) (min-width: 300px) {
+@media (max-width: 800px) (min-width: 320px) {
     #home,
     .main-wrapper,
     .second-block,
