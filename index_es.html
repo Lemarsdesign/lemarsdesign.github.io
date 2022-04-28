@@ -13,7 +13,7 @@
 
 <body> 
     <div id="toppage" class="lang">
-     <a class="language" href="index.html"> EN  &nbsp|  &nbsp<b class="languagein">ES</b></a>
+     <a class="language" href="index.html"> EN &nbsp| &nbsp<b class="languagein">ES</b></a>
     </div>
         <nav>    
         <div class="icon-home">
@@ -120,25 +120,100 @@
             <section class="project-wrapper">
                 <div class="project-description">
                     <h2 class="title">Diseño de Interfaz de Usuario o UI</h2>
-                    <p class="stack">#Figma  #Invision  #InterfazdeUsuario #Prototipado #DiseñodeInteraccion #DiseñodePorducto</p>
-                <p class="description"> Proyecto de diseño UI de una app de organización para ayudar a la concienciación del consumidor y promover la reutilización y la reducción de residuos.</p>
-                </div>
+                    <p class="stack">#Figma #AdobeXD #Invision  #InterfazdeUsuario #Prototipado #DiseñodeInteraccion #DiseñodeProducto</p>
                 <!-- <div class="projects-pic">
                     <img id="uipreview" src="img/uipreview.JPG" alt="preview UI design project"/>
-                </div > -->
+                </div > -->                
+<p class="description">Algunos diseños de producto realizados.</p></div>
+
+<div class="slideshow-container">
+
+<div class="mySlidesfade">
+  <div class="numbertext">1 / 4</div>
+  <img id="uxpreview" src="img/smartmockups_01.jpg" style="width:100%">
+  <div class="text"><i>Emotionalance</i>, app de bienestar y salud mental</div>
+</div>
+
+<div class="mySlidesfade">
+  <div class="numbertext">2 / 4</div>
+  <img id="uxpreview" src="img/smartmockups_02.jpg" style="width:100%">
+  <div class="text">Mockup de aplicación de Red Social</div>
+</div>
+
+<div class="mySlidesfade">
+  <div class="numbertext">3 / 4</div>
+  <img id="uxpreview" src="img/smartmockups_03.jpg" style="width:100%">
+  <div class="text">Mockup de <i>OrderLife</i>, aplicación organizativa zero waste</div>
+</div>
+<div class="mySlidesfade">
+    <div class="numbertext">4 / 4</div>
+    <img id="uxpreview" src="img/smartmockups_04.jpg" style="width:100%">
+    <div class="text"><i>Fly&Dance</i>, website adaptativo de escuela de danza aérea</div>
+  </div>
+<a class="prev" onclick="plusSlides(-1)">❮</a>
+<a class="next" onclick="plusSlides(1)">❯</a>
+
+</div>
+<br>
+
+<div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span> 
+    <span class="dot" onclick="currentSlide(2)"></span> 
+    <span class="dot" onclick="currentSlide(3)"></span> 
+    <span class="dot" onclick="currentSlide(4)"></span> 
+  </div>
+<script>
+    let slideIndex = 1;
+    showSlides(slideIndex);
+    
+    function plusSlides(n) {
+      showSlides(slideIndex += n);
+    }
+    
+    function currentSlide(n) {
+      showSlides(slideIndex = n);
+    }
+    
+    function showSlides(n) {
+      let i;
+      let slides = document.getElementsByClassName("mySlidesfade");
+      let dots = document.getElementsByClassName("dot");
+      if (n > slides.length) {slideIndex = 1}    
+      if (n < 1) {slideIndex = slides.length}
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";  
+      }
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex-1].style.display = "block";  
+      dots[slideIndex-1].className += " active";
+      setTimeout(showSlides, 2000);
+    }
+    </script></article>
                 <article class="videoart">
-                    <video clase="video-img" width="90%" height="80%" preload="auto" autoplay controls loop>
-                      <source src="assets/orderlife_project.mp4" type="video/mp4" />
+                    <div class="reference">
+                    <p class="description"> Proyecto de diseño UI de una app de organización para ayudar a la concienciación del consumidor <br> y promover la reutilización y la reducción de residuos.</p>
+                    <video clase="video-img" width="80%" height="auto" preload="auto" autoplay controls loop>
+                      <source src="assets/prototipo_01.mp4" type="video/mp4" />
                       <source src="video.webm" type="video/webm" />
                       <source src="video.ogv" type="video/ogg" />
                       <img src="imagen.png" alt="Video no soportado" />
                       Su navegador no soporta contenido multimedia. | Your browser does not support the video tag.
                     </video>
-                  </article>
-                <div class="reference">
                     <p>Si quieres ver con mayor detalle el prototipo y el diseño de interacción sobre este proyecto llamado "OrderLife",
-                        <a class="link" href="https://www.figma.com/proto/IyY57FbDcOVQtXgZ2WJIzD/PROYECTO-ORDERLIFE?node-id=0%3A1&scaling=scale-down&starting-point-node-id=1%3A3630" target="_blank">pincha aquí.</a></p>
-                </div>
+                            <a class="link" href="https://www.figma.com/proto/IyY57FbDcOVQtXgZ2WJIzD/PROYECTO-ORDERLIFE?node-id=0%3A1&scaling=scale-down&starting-point-node-id=1%3A3630" target="_blank">pincha aquí.</a></p>
+                    </div>
+                    <div class="reference">
+                        <p class="article-text"> Proyecto de diseño de la interfaz de usuario, prototipado e interacción de una red social para móvil.</p><br>
+                    <video clase="video-img" width="80%" height="auto" preload="auto" autoplay controls loop>
+                        <source src="assets/prototipo_02.mp4" type="video/mp4" />
+                        <source src="video.webm" type="video/webm" />
+                        <source src="video.ogv" type="video/ogg" />
+                        <img src="imagen.png" alt="Video no soportado" />
+                        Su navegador no soporta contenido multimedia. | Your browser does not support the video tag.
+                      </video> </div>
+                  </article>
                 <div class="project-description2">
                     <h2 class="title">Branding & Identidad Corporativa</h2>
                     <p class="stack">#Branding #IdentidadCorporativa #Accesibilidad #Usabilidad #Analítica #Webmetrías #WordPress #CMS</p>
