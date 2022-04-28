@@ -236,7 +236,7 @@ input+label, textarea+label  {
 	}		
 		.corto {width: 330px;}
         .middle{width: 688px;}
-		.largo {width: 718px;}
+		.largo {width: 710px; max-width: 70%;}
 }
  
 .datos {
@@ -341,6 +341,49 @@ footer{
     text-align: center;
     letter-spacing: 1px;
     color: aliceblue;
+}
 
+@media screen and (max-width: 850px) {
+    * {
+        align-items: center;
+        font-size-adjust: 20px;
+    }
+    #home,
+    .nav,
+    section, .porcent,
+    form,.sdprgm, .pgm,.foto   {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 2% auto;
+    }
+    .dprgm {
+        min-width: 40vw;
+    }
+    .sdprgm,.dprgm {
+        max-width: 90%;
+        align-items: center;
+    }
+    form,.largo, .middle,   {
+        min-width: 30%;
+        height: auto;
+    }
+    .pgm {
+        max-width: 35vw;
+    }
 
+    #idir, .corto,.porcent  {
+        max-width: 85vw;
+
+    }
+    .foto {
+        min-width: 200px;
+    }
+        .metas, .prof {
+        height: unset;
+
+    }
+    footer {
+        width: unset;
+    }
 }
